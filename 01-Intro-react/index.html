@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- nov.06.2020, My very first introduction to REACT JS -->
+    <!--   * How to use REACT called as Script, this is not a common practice -->
+    <!--   * it's only for basic understanding purposes -->
+    <!--   * react.production, react DOM, and babel JavaScript compiler -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <title>ReactApp</title>
+</head>
+<body>
+
+    <!-- This is the TAG where variables are going to be rendered. -->
+    <div id="root"></div>
+
+    <!-- specifying that script's content should be 'translated' with babel -->
+    <!-- to achieve JavaScript complete code compatibility. -->
+    <script type="text/babel">
+
+        /* aiming to div with id = "root" */
+        const divRoot = document.querySelector('#root');
+
+        /* creating a variable */
+        const firstName = 'Ronnie';
+
+        /* creating a new <h1> tag with the previous variable ! */
+        const h1Tag = <h1>Hola, soy { firstName }</h1>;
+
+        /* rendering the new h1Tag variable inside the divRoot Tag */
+        ReactDOM.render( h1Tag, divRoot);
+
+    </script>
+    
+</body>
+</html>
