@@ -6,6 +6,6 @@ Loading React-JS from index.html file, it's not the best practice, but this is f
 
 ### file:  index.html  
 My very first introduction to REACT JS.  
--How to use REACT called as Script, this is not a common practice.  
--it's only for basic understanding purposes.  
--react.production, react DOM, and babel JavaScript compiler.  
+- How to use REACT called as Script, this is not a common practice.  
+- it's only for basic understanding purposes.  
+- react.production, react DOM, and babel JavaScript compiler.  
