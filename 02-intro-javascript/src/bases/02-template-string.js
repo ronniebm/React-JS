@@ -1,11 +1,24 @@
-const nombre = 'Ronnie';
-const apellido = 'Barrios';
-const nombreCompleto = `${nombre} ${apellido}`;
+/* 
+Title: Template/strings (Basics).
+date: nov.06.2020.
+*/
 
-console.log(nombreCompleto);
+// declaring some 'const' variables.
+const firstName = 'Ronnie';
+const lastName = 'Barrios';
 
-function getSaludo(nombre) {
-    return 'Hola ' + nombre;
+// learning string variables concatenation (JOIN).
+const fullName = `${firstName} ${lastName}`;
+
+// printing concatenated string stored in a new variable.
+console.log(fullName);
+
+// my very first JS function declaration receiving 'firstName' argument.
+function getGreeting(firstName) {
+
+    // defining the concatenated msg to be returned.
+    return 'Hello ' + firstName;
 }
 
-console.log(`Este es un texto: ${ getSaludo( nombre ) }`);
+// making a console.log with back ticks and embedding code with dollar sign '$' syntax. 
+console.log(`This is a text: ${ getGreeting( firstName ) }`);

@@ -1,4 +1,4 @@
-# This is my first approach with REACT JS.
+# JavaScript basics.
 ---
 In this project, i'm checking the JavaScript basic concepts:
 
@@ -6,11 +6,26 @@ In this project, i'm checking the JavaScript basic concepts:
      alt="Markdown Monster icon"
      width=150px />
 
-### inside the 'src' folder:
+### inside the 'src/bases' folder:
+https://github.com/ronniebm/React-JS/tree/main/02-intro-javascript/src/bases
 ---
-- file:  01-const-let.js
+#### file: [01-const-let.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/01-const-let.js)  
 A practice with 'const' and 'let' variable asignment keywords, to understand differences between FUNCTION SCOPE (from ES5 standard), and BLOCK SCOPE (from ES6 standard).
 
-- file: 02-template-string.js
-A practice with strings, concatenation, my first function declaration in JS, using console log, using back ticks, end embedding code with dollar sign '$' syntax.
+#### file: [02-template-strings.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/02-template-string.js)
+A practice with strings, concatenation, my first function declaration in JS, using console log, using back ticks, end embedding code with dollar sign '$' syntax.  
 
+#### file: [03-objects-literal.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/03-objects-literal.js)
+A practice with a person object, making new copies of the object, printing in console, also using 'console.table' printing format.  
+
+
+#### file: [04-arrays.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/04-arrays.js)
+A practice with arrays, how to add elements to them, using map and a function to create a new modified array.  
+
+
+#### file: [05-functions.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/05-functions.js)
+A practice with functions, creating them, arrow functions structure, syntax to return objects from arrow functions.  
+
+
+#### file: [06-destructuring-obj.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/06-destructuring-obj.js)
+A practice for destructuring objects, example with a person object, destructuring object attributes into 'const0 variables, how to print and specific key value using 'object.key' syntax. destructuring annidated objects.
