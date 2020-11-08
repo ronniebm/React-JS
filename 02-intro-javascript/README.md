@@ -38,3 +38,7 @@ An import/export array's practice, and building fuctions using 'find' and 'filte
 
 #### file: [09-promises.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/09-promises.js)
 In this practice, we understand the importance of promises, how to set the response Timeout, how to use resolve, or reject commonly used method conventions.  
+
+#### file: [10-fetch.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/10-fetch.js)
+In this practice, we're working with an API, and doing calls to it with fetch method which returns a promise.
+we apply 'then' and 'catch' events, and make some object's destructuring. finally we obtain a GIFT url from the API to be showed in our actual HTML's body.
