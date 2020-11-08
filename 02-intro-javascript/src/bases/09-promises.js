@@ -3,10 +3,10 @@ import { getHeroById3 } from './08-import-export';
 // *****************************************
 // a promise are asynchronous execution by nature, that means that JavaScript
 // executes the secuential code first (wich is synchronous execution), and after
-// that, then promises results are evaluated.
+// that, the promises results are evaluated.
 //
 // This is how to create a new promise, and this promise will receive a function as
-// argument, this function is also called a 'call back'global.fetch = require('node-fetch');
+// argument, this function is also called a 'call back'.
 //
 // the call-back inside the promise receives two args, the name for these it doesn't matter BUT
 // it's almost a general convention to use words like 'resolve' and 'reject' within.
