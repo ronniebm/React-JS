@@ -31,4 +31,7 @@ A practice with functions, creating them, arrow functions structure, syntax to r
 A practice for destructuring objects, example with a person object, destructuring object attributes into 'const0 variables, how to print and specific key value using 'object.key' syntax. destructuring annidated objects.  
 
 #### file: [07-destructuring-arrays.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/07-destructuring-arrays.js)
-A practice for destructuring arrays, example with a person array, destructuring specific index positions with comma's separated spaces, creating a function that returns an array that contains a function inside, also destructuring a function inside an array.
+A practice for destructuring arrays, example with a person array, destructuring specific index positions with comma's separated spaces, creating a function that returns an array that contains a function inside, also destructuring a function inside an array.  
+
+#### file: [08-import-export.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/08-import-export.js)
+An import/export array's practice, and building fuctions using 'find' and 'filter' array methods.
