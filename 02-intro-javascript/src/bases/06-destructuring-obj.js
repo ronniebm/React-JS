@@ -1,4 +1,4 @@
-// Destructuring in JS.
+// Destructuring objects in JS.
 
 // defining a person object.
 const person = {
