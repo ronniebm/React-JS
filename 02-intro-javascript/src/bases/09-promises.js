@@ -1,4 +1,4 @@
-import { getHeroById3 } from './bases/08-import-export';
+import { getHeroById3 } from './08-import-export';
 // Learning about 'Promises' in JavaScript.
 // *****************************************
 // a promise are asynchronous execution by nature, that means that JavaScript
@@ -76,12 +76,12 @@ const getHeroByIdAsync = ( id ) => {
 getHeroByIdAsync(44)
     .then( ( hero ) => console.log('Hero is:', hero ))
     .catch( (err) => console.warn( err ) )
-    // line 72 works also the same with following symplified syntax,
+    // line 78 works also the same with following symplified syntax,
     // because it will take the very first argument received by reject
     // method:
     //
     // .catch( console.warn )
     //
-    // in the same way, this works with 'then' method, with this syntax:
+    // in the same way, this works with 'then' method (line 77), with following syntax:
     //
     // .then( console.log )
