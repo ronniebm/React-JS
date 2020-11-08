@@ -52,7 +52,7 @@ console.log( getHeroById2(2) ); // { id: 2, name: "Spiderman", owner: "Marvel" }
 //
 // Simplifying 'getHeroById2' function into a NEW function called 'getHeroById3'.
 
-const getHeroById3 = (id) => heroes.find( ( hero ) => hero.id === id);
+export const getHeroById3 = (id) => heroes.find( ( hero ) => hero.id === id);
 
 
 // testing the NEW simplified 'getHeroById3' function.
@@ -66,7 +66,7 @@ console.log( getHeroById3(2) ); // { id: 2, name: "Spiderman", owner: "Marvel" }
 // Let's create another function, to search by ownwer attribute
 // inside the imported 'heroes' object's array.
 
-const getHeroByOwner = ( owner ) => heroes.filter( ( heroe ) => heroe.owner === owner);
+export const getHeroByOwner = ( owner ) => heroes.filter( ( heroe ) => heroe.owner === owner);
 
 // testing the NEW 'getHeroByOwner' function.
 console.log( getHeroByOwner('DC') ); // [ {…}, {…}, {…} ]

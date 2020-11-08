@@ -34,4 +34,7 @@ A practice for destructuring objects, example with a person object, destructurin
 A practice for destructuring arrays, example with a person array, destructuring specific index positions with comma's separated spaces, creating a function that returns an array that contains a function inside, also destructuring a function inside an array.  
 
 #### file: [08-import-export.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/08-import-export.js)
-An import/export array's practice, and building fuctions using 'find' and 'filter' array methods.
+An import/export array's practice, and building fuctions using 'find' and 'filter' array methods.  
+
+#### file: [09-promises.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/09-promises.js)
+In this practice, we understand the importance of promises, how to set the response Timeout, how to use resolve, or reject commonly used method conventions.  
