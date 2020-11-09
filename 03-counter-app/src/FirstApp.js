@@ -4,15 +4,14 @@
 // should be named with upper camel case !, that's why
 // this component has been named 'FirstApp.js'.
 
-// i must not forget import React b'cause i'm using JSx syntax !!!
+// i must not forget to import React b'cause i'm using JSx syntax !!!
 
 
-// In React there are two types of components, one is based
-// on a class, and other is based on functions !.
-// --- this functions were named 'Stateless Functional Components' (SFC) 
-// --- nowadays they're called 'Functional Components' (FC) thanks to
-//     introductions of Hooks in React, so class based components are not 
-//     been used.
+// In React there are two types of components, those who are based
+// on a class, and those who are based on functions !.
+// --- the class based components were also named 'Stateless Functional Components' (SFC). 
+// --- nowadays they have changed thanks to Introduction of React Hooks and they're called
+//     now 'Functional Components' (FC), so class based components are not been used.
 
 import React from 'react';
 
