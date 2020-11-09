@@ -13,5 +13,5 @@ import './index.css';
 // creating a pointer to DIV inside public/index.html with the id = 'app'.
 const divRoot = document.querySelector('#app');
 
-// rendering the new greeting variable into the divRoot asigned object.
+// rendering the NEW 'FirstApp' component into the divRoot asigned object.
 ReactDOM.render(<FirstApp/>, divRoot);
