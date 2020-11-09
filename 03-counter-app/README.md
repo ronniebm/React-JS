@@ -4,7 +4,7 @@
 # React-JS (nov.09.2020)
 
 #### Scope of this section.
-- Understanding all the files created by command 'npx react-create-app AppName'.
+- Understanding all the files created by command 'npx create-react-app AppName'.
 
 - creating a new html tag with a greeting msg inside the greeting 'variable'.
 
