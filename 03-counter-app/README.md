@@ -11,7 +11,11 @@
 
 - using ReactDOM to render the variable with the html TAG, into the div inside the HTML with the Root ID.
 
-- creating a component called 'FirstApp' component, and rendering it on 'index.html > divRoot' with ReactDOM.
+- creating a component called 'FirstApp', and rendering it on 'index.html > divRoot' with ReactDOM.
+
+- creating a 2nd component 'SecondApp' that returns 2 elements h1 and p, wrapped into a DIV element.
+
+- creating a 3rd component 'ThirdApp' that returns 2 elements h1 and p, without DIV wrapping.
 
 <img src="https://github.com/ronniebm/React-JS/blob/main/03-counter-app/src/img/img01.png"
      alt="Screenshot of my first component !"
