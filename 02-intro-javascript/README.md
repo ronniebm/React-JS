@@ -44,4 +44,7 @@ In this practice, we're working with an API, and doing calls to it with fetch me
 we apply 'then' and 'catch' events, and make some object's destructuring. finally we obtain a GIFT url from the API to be showed in our actual HTML's body.  
 
 #### file: [11-async-await.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/11-async-await.js)
-In this practice, we're working arrow functions with  'async' and 'await' to solving promises.
+In this practice, we're working arrow functions with  'async' and 'await' to solving promises.  
+
+#### file: [12-ternary.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/12-ternary.js)
+In this practice, we're working with Ternary conditional operator in JavaScript, their structure and some short implementation.
