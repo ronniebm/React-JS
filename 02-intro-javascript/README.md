@@ -37,14 +37,14 @@ A practice for destructuring arrays, example with a person array, destructuring 
 An import/export array's practice, and building fuctions using 'find' and 'filter' array methods.  
 
 #### file: [09-promises.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/09-promises.js)
-In this practice, we understand the importance of promises, how to set the response Timeout, how to use resolve, or reject commonly used method conventions.  
+In this practice, I understand the importance of promises, how to set the response Timeout, how to use resolve, or reject commonly used method conventions.  
 
 #### file: [10-fetch.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/10-fetch.js)
-In this practice, we're working with an API, and doing calls to it with fetch method which returns a promise.
+In this practice, I'm working with an API, and doing calls to it with fetch method which returns a promise.
 we apply 'then' and 'catch' events, and make some object's destructuring. finally we obtain a GIFT url from the API to be showed in our actual HTML's body.  
 
 #### file: [11-async-await.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/11-async-await.js)
-In this practice, we're working arrow functions with  'async' and 'await' to solving promises.  
+In this practice, I'm working arrow functions with  'async' and 'await' to solving promises.  
 
 #### file: [12-ternary.js](https://github.com/ronniebm/React-JS/blob/main/02-intro-javascript/src/bases/12-ternary.js)
-In this practice, we're working with Ternary conditional operator in JavaScript, their structure and some short implementation.
+In this practice, I'm working with Ternary conditional operator in JavaScript, their structure and some short implementation.
