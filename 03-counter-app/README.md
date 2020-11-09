@@ -17,4 +17,11 @@
      alt="Screenshot of my first component !"
      width=800px />
 
-#### file: [index.js](https://github.com/ronniebm/React-JS/blob/main/03-counter-app/src/index.js)
+---  
+# FILES of this practice:  
+
+#### file: [index.js](https://github.com/ronniebm/React-JS/blob/main/03-counter-app/src/index.js)  
+This is the start point of React, you can find the main code documented.  
+
+#### file: [FirstApp.js](https://github.com/ronniebm/React-JS/blob/main/03-counter-app/src/FirstApp.js)  
+This is the component coded, you can find IMPORTANT NOTES to take into account, and usefull code comments (tips).
