@@ -3,7 +3,7 @@
 // importing the 'FirstApp' component.
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FirstApp from './FirstApp';
+import FirstApp, { SecondApp, ThirdApp } from './FirstApp';
 
 // applying some style to my first component :D
 // importing the index.css file.
@@ -13,5 +13,5 @@ import './index.css';
 // creating a pointer to DIV inside public/index.html with the id = 'app'.
 const divRoot = document.querySelector('#app');
 
-// rendering the NEW 'FirstApp' component into the divRoot asigned object.
-ReactDOM.render(<FirstApp/>, divRoot);
+// rendering the 'FirstApp' and 'SecondApp' component into the divRoot asigned object.
+ReactDOM.render([<FirstApp/>, <SecondApp/>, <ThirdApp/>], divRoot);
