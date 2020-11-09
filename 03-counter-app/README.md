@@ -13,8 +13,8 @@
 
 - creating a component called 'FirstApp' component, and rendering it on 'index.html > divRoot' with ReactDOM.
 
-<img src="../src/img/img01.png"
+<img src="https://github.com/ronniebm/React-JS/blob/main/03-counter-app/src/img/img01.png"
      alt="Screenshot of my first component !"
-     width=600px />
+     width=800px />
 
 #### file: [index.js](https://github.com/ronniebm/React-JS/blob/main/03-counter-app/src/index.js)
