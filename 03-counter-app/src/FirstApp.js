@@ -51,5 +51,18 @@ export const ThirdApp = () => {
 }
 
 
+// after learning about 'Fragments', i found a short way of do 'FRAGMENTS' but without need to import 'Fragment' module
+// from React modules, and it's just wrapping elements with empty opening and closing tags like this =>   <> </>.
+// let's do this in our FourthApp.
+export const FourthApp = () => {
+    return  (
+            <>
+                <h1> This is the fourth component in React !</h1>
+                <p> Now i'm addind a paragraph below this third component (without use of fragments ! ).</p>
+            </>
+    );
+}
+
+
 // exporting by default this component.
 export default FirstApp;
