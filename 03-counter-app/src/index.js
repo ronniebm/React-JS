@@ -2,12 +2,14 @@
 // importing ReactDOM to be able of manipulating objects in the DOM.
 import React from 'react';
 import ReactDOM from 'react-dom';
+import FirstApp from './FirstApp';
 
-// creating a new greeting 'cons' variable, saving a HTML Tag structure.
-const greeting = <h1>Hello world !</h1>;
+// applying some style to my first component :D
+import './index.css';
+
 
 // creating a pointer to DIV inside public/index.html with the id = 'app'.
 const divRoot = document.querySelector('#app');
 
 // rendering the new greeting variable into the divRoot asigned object.
-ReactDOM.render(greeting, divRoot); 
+ReactDOM.render(<FirstApp/>, divRoot);
