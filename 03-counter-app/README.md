@@ -15,7 +15,7 @@
 
 <img src="https://github.com/ronniebm/React-JS/blob/main/03-counter-app/src/img/img01.png"
      alt="Screenshot of my first component !"
-     width=800px />
+     width=1200px />
 
 ---  
 # FILES of this practice:  
