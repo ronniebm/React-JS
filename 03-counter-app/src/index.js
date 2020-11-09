@@ -1,10 +1,12 @@
 // importing React to be able of working with JSx code syntax.
 // importing ReactDOM to be able of manipulating objects in the DOM.
+// importing the 'FirstApp' component.
 import React from 'react';
 import ReactDOM from 'react-dom';
 import FirstApp from './FirstApp';
 
 // applying some style to my first component :D
+// importing the index.css file.
 import './index.css';
 
 
