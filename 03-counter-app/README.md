@@ -26,10 +26,36 @@
      width=1200px />
 
 ---  
+
+- creating 'App5' and passing values using 'props' in a traditional way.
+  -- also we have created a 'Default Message' just in case that prop hasn't
+     beign passed by the programmer.<br><br>
+
+     <b>*IMPORTANT*</b>: we're destructuring 'props' object ! of course we must know which
+                property name should be taken from within, this case is 'greeting'.
+
+
+- creating 'App6', here we use an IF condition to check if greeting 'prop' was given
+  by the programmer, and if NOT we create a new personalized ERROR to advice the
+  programmer than that 'props' is required (this is not the best practice).
+
+
+- creating 'App7', here we use propTypes as a separated block validator, please notice 
+  we're not using IF block to check every given prop, and it's very friendly b'cause
+  i can specify the type and if REQUIRED (or not) in a very comfortable syntax.  
+
+
+- creating 'App8', here we use propTypes 'defaultProps' as a separated block to define 
+  default 'props' values, i can do this with a very comfortable syntax.
+
+
 # FILES of this practice:  
 
 #### file: [index.js](https://github.com/ronniebm/React-JS/blob/main/03-counter-app/src/index.js)  
 This is the start point of React, you can find the main code documented.  
 
 #### file: [FirstApp.js](https://github.com/ronniebm/React-JS/blob/main/03-counter-app/src/FirstApp.js)  
-This is the component coded, you can find IMPORTANT NOTES to take into account, and usefull code comments (tips).
+This is the component coded, you can find IMPORTANT NOTES to take into account, and usefull code comments (tips).  
+
+#### file: [CounterApp.js](https://github.com/ronniebm/React-JS/blob/main/03-counter-app/src/CounterApp.js)  
+This is a Homework i must complete, creating a NewComponent called 'CounterApp' and following same structure as i did in FirstApp.js file.

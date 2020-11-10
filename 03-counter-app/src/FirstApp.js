@@ -94,7 +94,7 @@ export const App6 = ( { greeting } ) => {
     // In following block we can generate a personalized Error Message,
     // to make the programmer understand why has failed ! and it's usefull !.
     // But this way generates some extra memory compsumption and we must take
-    // this into account !!!
+    // this into account, this can be a problem !!!
     if ( !greeting ) {
         /* throw new Error("It's neccesary a greeting in the given props !"); */
     }
