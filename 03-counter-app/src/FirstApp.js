@@ -111,14 +111,6 @@ export const App6 = ( { greeting } ) => {
 // ***************************************************************************
 export const App7 = ( { greeting } ) => {
 
-    // In following block we can generate a personalized Error Message,
-    // to make the programmer understand why has failed ! and it's usefull !.
-    // But this way generates some extra memory compsumption and we must take
-    // this into account !!!
-    if ( !greeting ) {
-        /* throw new Error("It's neccesary a greeting in the given props !"); */
-    }
-
     return (
         <>
             <h1> { greeting } </h1>
@@ -128,7 +120,7 @@ export const App7 = ( { greeting } ) => {
 }
 
 // using propTypes we can advice to another programmer that
-// he/she must pass these declared props, and with exactly
+// he/she must pass those declared props, and with exactly
 // those predefined types !.
 App7.propTypes = {
     greeting: PropTypes.string.isRequired,
@@ -139,14 +131,6 @@ App7.propTypes = {
 
 // ***************************************************************************
 export const App8 = ( { greeting, subtitle } ) => {
-
-    // In following block we can generate a personalized Error Message,
-    // to make the programmer understand why has failed ! and it's usefull !.
-    // But this way generates some extra memory compsumption and we must take
-    // this into account !!!
-    if ( !greeting ) {
-        /* throw new Error("It's neccesary a greeting in the given props !"); */
-    }
 
     return (
         <>
@@ -160,6 +144,8 @@ App8.propTypes = {
     greeting: PropTypes.string.isRequired
 }
 
+// Here we're declaring default props values !
+// for all the neccesary props !.
 App8.defaultProps = {
     subtitle: "I'm a subtitle (default value)"
 }
