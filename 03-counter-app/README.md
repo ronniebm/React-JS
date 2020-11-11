@@ -52,7 +52,7 @@
 
 <img src="https://github.com/ronniebm/React-JS/blob/main/03-counter-app/src/img/img02.png"
      alt="my CounterApp component !"
-     width=1000px />
+     width=800px />
 
 
 # FILES of this practice:  
