@@ -24,5 +24,5 @@ ReactDOM.render([
     <App6/>,
     <App7/>,
     <App8 greeting ='Greetings from App8 !'/>,
-    <CounterApp value = {12} />],
+    <CounterApp value = {0} />],
 divRoot);
