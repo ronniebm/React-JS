@@ -48,6 +48,12 @@
 - creating 'App8', here we use propTypes 'defaultProps' as a separated block to define 
   default 'props' values, i can do this with a very comfortable syntax.
 
+- creating 'CounterApp' component, it works with 'useState' HOOK, and has 3 buttons working with 'onClick' event, to ADD, RESET, SUBSTRACT from the actual value, this is the screenshot of the rendered component and the component's browser monitor:
+
+<img src="https://github.com/ronniebm/React-JS/blob/main/03-counter-app/src/img/img02.png"
+     alt="my CounterApp component !"
+     width=1000px />
+
 
 # FILES of this practice:  
 
